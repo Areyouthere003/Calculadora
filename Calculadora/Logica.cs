@@ -1,12 +1,39 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Calculadora
 {
-    internal class Logica
+    class Logica_Operacional
     {
+        public long resultado;
+
+        public long Sumas(long numeroEntrante1, long numeroEntrante2)
+        {
+            resultado = numeroEntrante1 + numeroEntrante2;
+            return resultado;
+        }
+        public long Restas(long numeroEntrante1, long numeroEntrante2)
+        {
+            resultado = numeroEntrante1 - numeroEntrante2;
+            return resultado;
+        }
+        public long Multiplicacion(long numeroEntrante1, long numeroEntrante2)
+        {
+            resultado = numeroEntrante1 * numeroEntrante2;
+            return resultado;
+        }
+        public long Division(long numeroEntrante1, long numeroEntrante2)
+        {
+            if (numeroEntrante1 < 0 || numeroEntrante1 > 0)
+            {
+                resultado = numeroEntrante1 / numeroEntrante2;
+            }
+            else
+            {
+                Console.WriteLine("Ningún número es divisible por cero");
+            }
+            return resultado;
+        }
     }
 }
