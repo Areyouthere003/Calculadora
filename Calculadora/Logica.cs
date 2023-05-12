@@ -24,11 +24,13 @@ namespace Calculadora
         public long Restas(long numeroEntrante1, long numeroEntrante2)
         {
             resultado = numeroEntrante1 - numeroEntrante2;
+            Console.WriteLine(resultado);
             return resultado;
         }
         public long Multiplicacion(long numeroEntrante1, long numeroEntrante2)
         {
             resultado = numeroEntrante1 * numeroEntrante2;
+            Console.WriteLine(resultado);
             return resultado;
         }
         public long Division(long numeroEntrante1, long numeroEntrante2)
@@ -36,6 +38,7 @@ namespace Calculadora
             if (numeroEntrante1 < 0 || numeroEntrante1 > 0)
             {
                 resultado = numeroEntrante1 / numeroEntrante2;
+                Console.WriteLine(resultado);
             }
             else
             {
