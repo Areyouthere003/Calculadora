@@ -44,6 +44,7 @@ namespace Calculadora
                     numero1 = long.Parse(palabra1);
                     numero2 = long.Parse(palabra2);
                     llamados.Sumas(numero1, numero2);
+                    // prueba para calibrar gitbash
                     Console.ReadKey(); Console.Clear(); Menucito();
                     break;
                 case 2:

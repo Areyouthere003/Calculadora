@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\JUAN GABRIEL ERASO ARIAS\\Carlos Enrique Navia\\Calculadora\\Calculadora\\Calculadora.csproj": {}
+    "D:\\Gabriel Eraso\\Unity\\Calculadora\\Calculadora\\Calculadora.csproj": {}
   },
   "projects": {
-    "D:\\JUAN GABRIEL ERASO ARIAS\\Carlos Enrique Navia\\Calculadora\\Calculadora\\Calculadora.csproj": {
+    "D:\\Gabriel Eraso\\Unity\\Calculadora\\Calculadora\\Calculadora.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\JUAN GABRIEL ERASO ARIAS\\Carlos Enrique Navia\\Calculadora\\Calculadora\\Calculadora.csproj",
+        "projectUniqueName": "D:\\Gabriel Eraso\\Unity\\Calculadora\\Calculadora\\Calculadora.csproj",
         "projectName": "Calculadora",
-        "projectPath": "D:\\JUAN GABRIEL ERASO ARIAS\\Carlos Enrique Navia\\Calculadora\\Calculadora\\Calculadora.csproj",
-        "packagesPath": "C:\\Users\\SENA.DESKTOP-0H4IOVL\\.nuget\\packages\\",
-        "outputPath": "D:\\JUAN GABRIEL ERASO ARIAS\\Carlos Enrique Navia\\Calculadora\\Calculadora\\obj\\",
+        "projectPath": "D:\\Gabriel Eraso\\Unity\\Calculadora\\Calculadora\\Calculadora.csproj",
+        "packagesPath": "C:\\Users\\SENA\\.nuget\\packages\\",
+        "outputPath": "D:\\Gabriel Eraso\\Unity\\Calculadora\\Calculadora\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\SENA.DESKTOP-0H4IOVL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SENA\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
